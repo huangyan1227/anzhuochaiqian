@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="0dp"
+
+    android:background="@color/cardview_light_background"
+
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:orientation="horizontal"
+    android:background="@color/colorAccent"
+    >
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拆迁网"
+        android:layout_weight="1"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="10dp"
+        android:background="#0000"
+
+
+
+        />
+
+    <SearchView
+
+        android:id="@+id/searchView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_weight="3"
+        android:layout_marginLeft="1dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="搜索内容"
+
+        >
+
+
+    </SearchView>
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="0dp"
+            android:background="#0000"
+            android:text="搜索"
+
+            />
+
+
+
+
+    <!--</LinearLayout>-->
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 设置普通指示器 -->
+    <com.donkingliang.banner.CustomBanner
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        app:indicatorStyle="ORDINARY"
+        app:indicatorGravity="CENTER"
+
+        app:indicatorInterval="5dp"/>
+
+
+    <!--app:indicatorSelectRes="@drawable/shape_point_select"-->
+    <!--app:indicatorUnSelectRes="@drawable/shape_point_unselect"-->
+    <!--<Button-->
+    <!--android:id="@+id/button"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/button"-->
+    <!--android:layout_marginLeft="100dp"-->
+    <!--android:layout_marginTop="100dp"-->
+    <!--app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent"-->
+    <!--/>-->
+
+    <!--<ListView-->
+    <!--android:id="@+id/list_test"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:entries="@array/myarray"/>-->
+
+    <!--<ListView-->
+        <!--android:id="@+id/listview"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_width="match_parent"-->
+        <!--/>-->
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:scrollbars="none"
+        android:overScrollMode="never"
+
+        >
+
+
+
+        <!--第一行-->
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="40dp"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+
+                android:id="@+id/hlayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <!--android:background="@drawable/shapebutton"-->
+                <!--android:layout_marginLeft="40dp"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_marginRight="40dp"-->
+                <Button
+
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:drawablePadding="10dp"
+                    android:layout_weight="1"
+                    android:background="#0000"
+                    android:text="@string/wuzigonying"
+                    android:textColor="@color/Black"
+
+
+                    />
+
+
+                <Button
+
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:background="#0000"
+                    android:text="@string/wuziqiugou"
+
+                    android:textColor="@color/Black"
+
+                    />
+
+                <!--android:layout_marginRight="40dp"-->
+
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_marginRight="40dp"-->
+                <!--android:drawablePadding="12dp"-->
+
+                <Button
+
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="20dp"
+                    android:drawablePadding="10dp"
+                    android:background="#0000"
+                    android:button="@null"
+                    android:text="@string/zichanchuzhi"
+
+                    android:textColor="@color/Black"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <!--第二行-->
+            <!--android:layout_weight="1"-->
+            <LinearLayout
+
+                android:id="@+id/hlayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <!--android:background="@drawable/shapebutton"-->
+                <!--android:layout_marginLeft="40dp"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_marginRight="40dp"-->
+                <Button
+
+                    android:id="@+id/tbutton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:drawablePadding="10dp"
+
+                    android:layout_weight="1"
+                    android:background="#0000"
+                    android:text="@string/kucunwuzi"
+                    android:textColor="@color/Black"
+
+
+                    />
+
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_marginRight="40dp"-->
+                <!--android:drawablePadding="12dp"-->
+                <!--android:button="@null"-->
+
+                <Button
+
+                    android:id="@+id/tbutton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:background="#0000"
+                    android:text="@string/fujinshengyi"
+
+                    android:textColor="@color/Black"
+
+                    />
+
+                <!--android:layout_marginRight="40dp"-->
+
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_marginRight="40dp"-->
+                <!--android:drawablePadding="12dp"-->
+
+                <Button
+
+                    android:id="@+id/tbutton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+
+                    android:background="#0000"
+                    android:button="@null"
+                    android:text="@string/chaiqianwuzi"
+
+                    android:textColor="@color/Black"
+
+                    />
+
+
+            </LinearLayout>
+
+            <!--第三行-->
+
+
+            <LinearLayout
+
+                android:id="@+id/hlayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:orientation="horizontal">
+
+                <!--android:background="@drawable/shapebutton"-->
+                <!--android:layout_marginLeft="40dp"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_marginRight="40dp"-->
+                <Button
+
+                    android:id="@+id/rbutton11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:drawablePadding="10dp"
+
+                    android:layout_weight="1"
+                    android:background="#0000"
+                    android:text="@string/zhaobiaoxinxi"
+                    android:textColor="@color/Black"
+
+
+                    />
+
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_marginRight="40dp"-->
+                <!--android:drawablePadding="12dp"-->
+                <!--android:button="@null"-->
+
+                <Button
+
+                    android:id="@+id/rbutton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:drawablePadding="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_weight="1"
+                    android:background="#0000"
+                    android:text="@string/gongchengjixie"
+                    android:layout_marginBottom="20dp"
+
+                    android:textColor="@color/Black"
+
+                    />
+
+                <!--android:layout_marginRight="40dp"-->
+
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_marginRight="40dp"-->
+                <!--android:drawablePadding="12dp"-->
+
+                <Button
+
+                    android:id="@+id/rbutton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="20dp"
+                    android:drawablePadding="10dp"
+                    android:background="#0000"
+                    android:button="@null"
+                    android:text="@string/quanguohuoyun"
+
+                    android:textColor="@color/Black"
+
+                    />
+
+
+            </LinearLayout>
+            <!--/>/  android:text="那快点发来上课 快3"-->
+            <!--android:textColor="@color/Black"-->
+            <TextView
+
+            android:id="@+id/textview4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="82dp"
+            android:layout_marginRight="40dp"
+
+
+            />
+
+
+            <!--<TextView-->
+
+            <!--android:id="@+id/textview5"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="40dp"-->
+            <!--android:layout_marginTop="90dp"-->
+            <!--android:layout_marginRight="40dp"-->
+            <!--android:text="那快点发来上课 快4"-->
+            <!--android:textColor="@color/Black"-->
+
+            <!--/>-->
+
+
+            <!--<TextView-->
+
+            <!--android:id="@+id/textview6"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="40dp"-->
+            <!--android:layout_marginTop="90dp"-->
+            <!--android:layout_marginRight="40dp"-->
+            <!--android:layout_marginBottom="30dp"-->
+            <!--android:text="那快点发来上课 快5"-->
+            <!--android:textColor="@color/Black"-->
+
+            <!--/>-->
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imgtou"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--app:layout_constraintRight_toRightOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/name"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:paddingLeft="8dp"-->
+    <!--android:textColor="#1D1D1C"-->
+    <!--android:textSize="20dp"-->
+
+    <!--/>-->
+
+    <!--<TextView-->
+
+    <!--android:id="@+id/says"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:paddingLeft="8dp"-->
+    <!--android:textColor="#B4B4B9"-->
+    <!--android:textSize="14dp"-->
+
+    <!--/>-->
+
+
+
+
+
+
+    <!--</LinearLayout>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_weight="1"-->
+
+        <!--android:gravity="center"-->
+        <!--android:text="Navigation"-->
+        <!--android:textColor="#9b92b3"-->
+        <!--android:textStyle="bold"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_marginEnd="10dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginStart="10dp"-->
+        <!--android:layout_weight="1"-->
+
+        <!--android:gravity="center"-->
+        <!--android:text="Tab"-->
+        <!--android:textColor="#9b92b3"-->
+        <!--android:textStyle="bold"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_marginEnd="10dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginStart="10dp"-->
+        <!--android:layout_weight="1"-->
+
+        <!--android:gravity="center"-->
+        <!--android:text="Bar"-->
+        <!--android:textColor="#9b92b3"-->
+        <!--android:textStyle="bold"/>-->
+    <!--&lt;!&ndash;android:background="@drawable/bg_round_rect"&ndash;&gt;-->
+    <!--<TextView-->
+        <!--android:id="@+id/txt_vp_item_page"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_weight="1"-->
+
+        <!--android:gravity="center"-->
+        <!--android:text="Page"-->
+        <!--android:textColor="#9b92b3"-->
+        <!--android:textStyle="bold"-->
+
+
+        <!--/>-->
+
+</LinearLayout>

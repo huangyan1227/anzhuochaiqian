@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="4"
+    android:background="@color/cardview_light_background"
+
+    >
+
+    <LinearLayout
+
+        android:id="@+id/line1"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="44dp"
+
+        android:orientation="horizontal"
+
+        android:background="@color/colorAccent"
+
+        android:layout_marginRight="0dp"
+
+        android:layout_marginLeft="0dp"
+
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        >
+
+
+
+
+        <!--<View-->
+        <!--android:id="@+id/mynaview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="44dp"-->
+        <!--android:layout_marginTop="0dp"-->
+        <!--android:layout_marginLeft="0dp"-->
+        <!--android:background="@color/colorAccent"-->
+
+
+
+        <!--&gt;-->
+
+
+
+        <!--</View>-->
+        <!--android:layout_weight="1"-->
+
+        <Button
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="拆迁网"
+
+            android:layout_marginTop="0dp"
+
+            android:layout_marginLeft="10dp"
+
+            android:background="#0000"
+
+            />
+
+        <TextView
+
+            android:id="@+id/item2textView"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="0dp"
+
+            android:textSize="18dp"
+
+            android:layout_marginLeft="80dp"
+
+            android:text="发布"
+
+            android:background="#0000"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_weight="1"-->
+
+        <!--android:gravity="center"-->
+        <!--android:text="Navigation"-->
+        <!--android:textColor="#9b92b3"-->
+        <!--android:textStyle="bold"/>-->
+
+
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_marginEnd="10dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginStart="10dp"-->
+        <!--android:layout_weight="1"-->
+
+        <!--android:gravity="center"-->
+        <!--android:text="Bar"-->
+        <!--android:textColor="#9b92b3"-->
+        <!--android:textStyle="bold"/>-->
+    <!--&lt;!&ndash;android:background="@drawable/bg_round_rect"&ndash;&gt;-->
+    <!--<TextView-->
+        <!--android:id="@+id/txt_vp_item_page"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_weight="1"-->
+
+        <!--android:gravity="center"-->
+        <!--android:text="Page"-->
+        <!--android:textColor="#9b92b3"-->
+        <!--android:textStyle="bold"-->
+
+
+        <!--/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/txt_vp_item_page1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_weight="1"-->
+
+        <!--android:gravity="center"-->
+        <!--android:text="Page"-->
+        <!--android:textColor="#9b92b3"-->
+        <!--android:textStyle="bold"-->
+
+
+        <!--/>-->
+
+</LinearLayout>

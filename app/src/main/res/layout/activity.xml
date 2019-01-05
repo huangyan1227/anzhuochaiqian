@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+
+    >
+
+    <Button
+
+        android:id="@+id/navagtionView"
+
+        android:layout_width="match_parent"
+
+        android:layout_marginTop="0dp"
+
+        android:layout_marginLeft="0dp"
+
+        android:layout_marginRight="0dp"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+
+        android:layout_height="60dp"
+
+        android:background="@color/colorAccent"/>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/linearLayout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+    <!--android:scrollbars="none"-->
+    <!--</LinearLayout>-->
+
+
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_height="match_parent"
+        android:background="@color/White"
+        app:srlAccentColor="#00000000"
+        app:srlPrimaryColor="#00000000"
+        app:srlEnablePreviewInEditMode="true">
+
+        <ListView
+            android:id="@+id/listview"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+
+            android:divider="@color/LightGray"
+            android:dividerHeight="2dp"
+            android:overScrollMode="never"
+            app:layout_constraintBottom_toBottomOf="@+id/refreshLayout"
+            app:layout_constraintLeft_toLeftOf="@+id/refreshLayout"
+            app:layout_constraintRight_toRightOf="@+id/refreshLayout"
+            app:layout_constraintTop_toBottomOf="@+id/navagtionView"
+            android:background="@color/White"
+
+            >
+
+
+        </ListView>
+
+        <com.scwang.smartrefresh.layout.footer.ClassicsFooter
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srlAccentColor="#000"
+            app:srlPrimaryColor="@android:color/white" />
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+
+
+
+
+
+
+
+
+    <com.examplechaiqian.py.mytabrapplication.MyLoading
+
+        android:id="@+id/loading"
+
+        android:layout_width="80dp"
+
+        android:layout_height="80dp"
+
+        android:layout_marginTop="200dp"
+
+        android:layout_marginLeft="150dp"
+
+        android:layout_marginBottom="100dp"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        />
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+    <!--android:layout_marginHorizontal="t"-->
+
+
+    <!--<com.examplechaiqianlunbolog.py.myview.MyLoading-->
+
+        <!--android:id="@+id/loading"-->
+
+        <!--android:layout_width="100dp"-->
+
+        <!--android:layout_height="100dp"-->
+
+        <!--android:layout_marginTop="100dp"-->
+
+        <!--android:layout_marginLeft="200dp"-->
+
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:id="@+id/textView"-->
+
+        <!--android:layout_width="wrap_content"-->
+
+        <!--android:layout_height="wrap_content"-->
+
+        <!--android:text="TextViesafa w"-->
+
+        <!--android:layout_marginTop="140px"-->
+
+        <!--android:layout_marginLeft="100px"-->
+
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+
+      <!--/>-->
+
+
+

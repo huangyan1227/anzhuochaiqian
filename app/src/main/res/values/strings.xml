@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">拆迁网</string>
+    <string name="todo">TODO</string>
+    <string name="chaiqian">拆迁</string>
+    <string name="shangji">商机</string>
+    <string name="fabu">发布</string>
+    <string name="huodong">活动</string>
+    <string name="guangjia">管家</string>
+
+
+    <string name="wuzigonying">物资供应</string>
+    <string name="wuziqiugou">物资求购</string>
+    <string name="zichanchuzhi">资产处置</string>
+    <string name="kucunwuzi">库存物资</string>
+    <string name="fujinshengyi">附近生意</string>
+    <string name="chaiqianwuzi">拆迁物资</string>
+
+    <string name="zhaobiaoxinxi">招标信息</string>
+    <string name="gongchengjixie">工程机械</string>
+    <string name="quanguohuoyun">全国货运</string>
+    
+    <string name="login">用户登录</string>
+    
+    <string name="tv_username">用户</string>
+    <string name="tv_password">密码</string>
+
+    <string name="bt_log">登录</string>
+    <string name="bt_registered">注册</string>
+    
+    <string name="et_username">输入用户名</string>
+    <string name="et_password">输入密码</string>
+
+    <string name="et_wangjimima">忘记密码</string>
+
+    <string name="tv_registered">用户注册</string>
+
+    <string name="tv_registeredusearname">账号</string>
+
+    <string name="et_registeredplusearname">可以是汉字、英文</string>
+
+    <string name="et_registeredpassword">密码</string>
+
+    <string name="et_plpassword">最少六位密码</string>
+
+    <string name="et_registeredagainpassword">确认密码</string>
+
+
+    <string name="tv_registeredyanzhanma">验证码</string>
+
+    <string name="et_registeredyanzhanma">输入验证码</string>
+
+    <string name="bt_registeredyanzhanma">获取验证码</string>
+
+
+    <string name="tv_registeredtell">手机号</string>
+
+    <string name="et_registeredtell">输入手机号</string>
+
+
+    <string name="feiguangbaojia">废钢报价</string>
+
+    <string name="feilvbaojia">废铝报价</string>
+
+    <string name="feitongbaojia">废铜报价</string>
+
+    <string name="feibuxiugangbaojia">废不锈钢</string>
+
+    <string name="feizhibaojia">废不锈钢</string>
+
+    <string name="feisuliaobaojia">废不锈钢</string>
+
+</resources>
